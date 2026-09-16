@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/data/siteConfig";
 import { servicesData } from "@/data/servicesData";
-import { ArrowUpRight, Mail, MessageSquare, ShieldCheck, CheckCircle, Linkedin } from "lucide-react";
+import { ArrowUpRight, Mail, MessageSquare, ShieldCheck, CheckCircle } from "lucide-react";
 
 export function Footer() {
   return (
@@ -117,7 +117,9 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 p-2.5 rounded-lg border border-blue-500/30 light:border-blue-300 bg-blue-500/10 light:bg-blue-50 hover:bg-blue-500/20 light:hover:bg-blue-100 text-blue-400 light:text-blue-700 transition-colors"
               >
-                <Linkedin className="w-4 h-4 shrink-0 text-blue-500" />
+                <svg className="w-4 h-4 shrink-0 text-blue-500 fill-current" viewBox="0 0 24 24">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.25c-.9 0-1.63.73-1.63 1.63 0 .9.73 1.63 1.63 1.63.9 0 1.63-.73 1.63-1.63 0-.9-.73-1.63-1.63-1.63Z" />
+                </svg>
                 <span>Connect on LinkedIn</span>
               </a>
 
