@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/data/siteConfig";
 import { servicesData } from "@/data/servicesData";
-import { ArrowUpRight, Mail, MessageSquare, ShieldCheck, CheckCircle } from "lucide-react";
+import { ArrowUpRight, Mail, MessageSquare, ShieldCheck, CheckCircle, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -109,6 +109,16 @@ export function Footer() {
               >
                 <MessageSquare className="w-4 h-4 shrink-0" />
                 <span>Discuss on WhatsApp</span>
+              </a>
+
+              <a
+                href={siteConfig.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 p-2.5 rounded-lg border border-blue-500/30 light:border-blue-300 bg-blue-500/10 light:bg-blue-50 hover:bg-blue-500/20 light:hover:bg-blue-100 text-blue-400 light:text-blue-700 transition-colors"
+              >
+                <Linkedin className="w-4 h-4 shrink-0 text-blue-500" />
+                <span>Connect on LinkedIn</span>
               </a>
 
               <p className="text-[11px] text-slate-500 light:text-slate-500 pt-1">

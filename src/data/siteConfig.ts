@@ -41,7 +41,7 @@ export const siteConfig: SiteConfig = {
     display: "+880 1618-824349",
     link: "https://wa.me/8801618824349?text=Hi%20Mohammad%20Rafe,%20I'd%20like%20to%20discuss%20a%20digital%20marketing%20and%20tracking%20project.",
   },
-  linkedin: "https://linkedin.com/in/mohammad-rafe",
+  linkedin: "https://www.linkedin.com/in/digital-marketer-rafe",
   navLinks: [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
