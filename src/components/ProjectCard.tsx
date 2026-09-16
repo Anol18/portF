@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ProjectItem } from "@/data/projectsData";
+import { siteConfig } from "@/data/siteConfig";
 import {
   ArrowRight,
   BarChart2,
@@ -217,7 +218,7 @@ export function ProjectCard({ project, featured = false }: ProjectCardProps) {
         </button>
 
         <a
-          href={`https://wa.me/8801700000000?text=Hi%20Mohammad%20Rafe,%20I'm%20interested%20in%20results%20similar%20to%20the%20${encodeURIComponent(
+          href={`https://wa.me/${siteConfig.whatsapp.number.replace(/[^0-9]/g, "")}?text=Hi%20Mohammad%20Rafe,%20I'm%20interested%20in%20results%20similar%20to%20the%20${encodeURIComponent(
             project.name
           )}%20case%20study.`}
           target="_blank"

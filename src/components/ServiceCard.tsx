@@ -45,7 +45,8 @@ export function ServiceCard({ service, featured = false }: ServiceCardProps) {
   const [expanded, setExpanded] = useState(false);
   const IconComponent = iconMap[service.icon] || Target;
 
-  const whatsappUrl = `https://wa.me/8801700000000?text=${encodeURIComponent(
+  const cleanNumber = siteConfig.whatsapp.number.replace(/[^0-9]/g, "");
+  const whatsappUrl = `https://wa.me/${cleanNumber}?text=${encodeURIComponent(
     service.whatsappMessage || `Hi Mohammad Rafe, I'm interested in your ${service.title} service.`
   )}`;
 

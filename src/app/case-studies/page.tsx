@@ -287,7 +287,7 @@ export default function CaseStudiesPage() {
 
           <div className="flex items-center gap-3">
             <a
-              href={`https://wa.me/8801700000000?text=Hi%20Mohammad%20Rafe,%20I%20read%20your%20${encodeURIComponent(
+              href={`https://wa.me/${siteConfig.whatsapp.number.replace(/[^0-9]/g, "")}?text=Hi%20Mohammad%20Rafe,%20I%20read%20your%20${encodeURIComponent(
                 currentProject.name
               )}%20case%20study%20and%20would%20like%20to%20discuss%20a%20similar%20strategy.`}
               target="_blank"

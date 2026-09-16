@@ -35,11 +35,11 @@ export const siteConfig: SiteConfig = {
   experienceClaim: "4+ Years Experience",
   marketExperience:
     "Bangladesh and international markets, through direct client projects and multiple freelancing platforms.",
-  email: "hello@mrafedigital.com",
+  email: "almahmudrafe@gmail.com",
   whatsapp: {
-    number: "+8801700000000",
-    display: "+880 1700-000000",
-    link: "https://wa.me/8801700000000?text=Hi%20Mohammad%20Rafe,%20I'd%20like%20to%20discuss%20a%20digital%20marketing%20and%20tracking%20project.",
+    number: "+8801618824349",
+    display: "+880 1618-824349",
+    link: "https://wa.me/8801618824349?text=Hi%20Mohammad%20Rafe,%20I'd%20like%20to%20discuss%20a%20digital%20marketing%20and%20tracking%20project.",
   },
   linkedin: "https://linkedin.com/in/mohammad-rafe",
   navLinks: [

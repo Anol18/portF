@@ -42,7 +42,8 @@ export function ContactForm() {
     )}%0AService Needed: ${encodeURIComponent(formData.service)}%0ABudget: ${encodeURIComponent(
       formData.budget
     )}%0AProject Details: ${encodeURIComponent(formData.details || "Inquiry")}`;
-    return `https://wa.me/8801700000000?text=${text}`;
+    const cleanNumber = siteConfig.whatsapp.number.replace(/[^0-9]/g, "");
+    return `https://wa.me/${cleanNumber}?text=${text}`;
   };
 
   return (

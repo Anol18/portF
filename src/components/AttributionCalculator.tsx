@@ -169,7 +169,7 @@ export function AttributionCalculator() {
 
           <div className="pt-2 flex flex-col sm:flex-row items-center gap-3">
             <a
-              href={`https://wa.me/8801700000000?text=Hi%20Mohammad%20Rafe,%20I%20used%20your%20calculator.%20My%20ad%20spend%20is%20$${monthlySpend}/mo%20and%20I'd%20like%20to%20audit%20my%20server-side%20tracking.`}
+              href={`https://wa.me/${siteConfig.whatsapp.number.replace(/[^0-9]/g, "")}?text=Hi%20Mohammad%20Rafe,%20I%20used%20your%20calculator.%20My%20ad%20spend%20is%20$${monthlySpend}/mo%20and%20I'd%20like%20to%20audit%20my%20server-side%20tracking.`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-colors shadow-lg shadow-emerald-500/20"
